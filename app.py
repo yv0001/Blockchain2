@@ -181,7 +181,7 @@ if 'wallet_bob' not in st.session_state:
 bc = st.session_state.blockchain
 
 st.title("🔗 EduChain: Advanced Blockchain Simulator")
-st.markdown("### A College-Level Practical Demonstration of Blockchain Mechanics")
+st.markdown("### A Practical Demonstration of Blockchain Mechanics")
 
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Blocks Mined", len(bc.chain))
