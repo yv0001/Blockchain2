@@ -231,7 +231,8 @@ with st.sidebar:
 # 4. TABS UI
 # ==========================================
 
-tab1, tab2, tab3, tab4 = st.tabs(["💸 Transactions & Mining", "⛓️ Blockchain Inspector", "🛡️ Replay Attack Demo" ])
+# EDITED: Removed "Theory & Viva" from the list and variable assignment
+tab1, tab2, tab3 = st.tabs(["💸 Transactions & Mining", "⛓️ Blockchain Inspector", "🛡️ Replay Attack Demo"])
 
 # --- TAB 1: TRANSACTIONS & MINING ---
 with tab1:
@@ -363,16 +364,3 @@ with tab3:
                 
     else:
         st.info("Send a transaction in Tab 1 first to capture it.")
-
-# --- TAB 4: THEORY & VIVA ---
-#with tab4:
-#    st.header("📚 Theory & Viva Explanations")
-    
-#    with st.expander("What is a Blockchain?"):
-#        st.write("A distributed, immutable ledger. Blocks are chained via hashes.")
-#    with st.expander("What is Proof of Work (PoW)?"):
-#        st.write("A consensus mechanism requiring computational effort (finding a Nonce) to secure the network.")
-#    with st.expander("What is a Replay Attack?"):
-#        st.write("Maliciously repeating a valid data transmission. Prevented by Unique IDs/Nonces.")
-#    with st.expander("How does Difficulty Adjustment work?"):
-#        st.write("Adjusts required zeros in hash to keep mining time constant despite computer power changes.")
