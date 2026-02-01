@@ -231,7 +231,7 @@ with st.sidebar:
 # 4. TABS UI
 # ==========================================
 
-tab1, tab2, tab3, tab4 = st.tabs(["💸 Transactions & Mining", "⛓️ Blockchain Inspector", "🛡️ Replay Attack Demo", "📚 Theory & Viva"])
+tab1, tab2, tab3, tab4 = st.tabs(["💸 Transactions & Mining", "⛓️ Blockchain Inspector", "🛡️ Replay Attack Demo", #"📚 Theory & Viva"])
 
 # --- TAB 1: TRANSACTIONS & MINING ---
 with tab1:
